@@ -4,33 +4,34 @@ import { useState, useEffect } from 'react'
 import {v4 as uuidv4} from 'uuid'
 import Header from './main/components/Header'
 import Body from './main/components/Body'
-import img0 from './main/imgs/icons8-avocado-40.png'
-import img1 from './main/imgs/icons8-banana-40.png'
-import img2 from './main/imgs/icons8-banana-split-40.png'
-import img3 from './main/imgs/icons8-cheesecake-40.png'
-import img4 from './main/imgs/icons8-chili-pepper-40.png'
-import img5 from './main/imgs/icons8-chocolate-bar-40.png'
-import img6 from './main/imgs/icons8-hamburger-40.png'
-import img7 from './main/imgs/icons8-nut-40.png'
-import img8 from './main/imgs/icons8-peanuts-40.png'
-import img9 from './main/imgs/icons8-pie-40.png'
-import img10 from './main/imgs/icons8-pineapple-40.png'
-import img11 from './main/imgs/icons8-spaghetti-40.png'
+import Footer from './main/components/Footer'
+import img0 from './main/imgs/uvas.png'
+import img1 from './main/imgs/banana.png'
+import img2 from './main/imgs/banana-split.png'
+import img3 from './main/imgs/cheesecake.png'
+import img4 from './main/imgs/tomate.png'
+import img5 from './main/imgs/barra-de-chocolate.png'
+import img6 from './main/imgs/hamburguer.png'
+import img7 from './main/imgs/bubble-tea.png'
+import img8 from './main/imgs/walnut.png'
+import img9 from './main/imgs/pizza.png'
+import img10 from './main/imgs/avocado.png'
+import img11 from './main/imgs/spaghetti.png'
 
 
 function App() {
   const [imgs, setImgs] = useState([
-    {url:img0, id: uuidv4(),title: 'avocado', clicked: false},
-    {url:img1, id: uuidv4(),title: 'banana', clicked: false},
-    {url:img2, id: uuidv4(),title: 'bananaSplit', clicked: false},
-    {url:img3, id: uuidv4(),title: 'cheesecake', clicked: false},
-    {url:img4, id: uuidv4(),title: 'chili', clicked: false},
-    {url:img5, id: uuidv4(),title: 'chocolate', clicked: false},
-    {url:img6, id: uuidv4(),title: 'hamburguer', clicked: false},
-    {url:img7, id: uuidv4(),title: 'nut', clicked: false},
-    {url:img8, id: uuidv4(),title: 'peanuts', clicked: false},
-    {url:img9, id: uuidv4(),title: 'pie', clicked: false},
-    {url:img10, id: uuidv4(),title: 'pineapple', clicked: false},
+    {url:img0, id: uuidv4(),title: 'Grapes', clicked: false},
+    {url:img1, id: uuidv4(),title: 'Banana', clicked: false},
+    {url:img2, id: uuidv4(),title: 'BananaSplit', clicked: false},
+    {url:img3, id: uuidv4(),title: 'Cheesecake', clicked: false},
+    {url:img4, id: uuidv4(),title: 'Tomato', clicked: false},
+    {url:img5, id: uuidv4(),title: 'Chocolate', clicked: false},
+    {url:img6, id: uuidv4(),title: 'Hamburguer', clicked: false},
+    {url:img7, id: uuidv4(),title: 'Boba Tea', clicked: false},
+    {url:img8, id: uuidv4(),title: 'Walnut', clicked: false},
+    {url:img9, id: uuidv4(),title: 'Pizza', clicked: false},
+    {url:img10, id: uuidv4(),title: 'Avocado', clicked: false},
     {url:img11, id: uuidv4(),title: 'spaghetti', clicked: false}
   ])
 
@@ -66,6 +67,7 @@ function App() {
     <div className="App">
       < Header/>  
       < Body imgs={imgs} score={score} scrambleGame={scrambleGame} />
+      <Footer />
     </div>
   )
 }

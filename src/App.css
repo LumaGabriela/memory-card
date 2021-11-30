@@ -1,22 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Raleway:wght@500&display=swap');
+
 :root{
-  --green: #b7ff86;
+  --green: #97c1a9;
   --gray: #ffffff87;
-  --red:#ff7066;
-  --dark:#292929;
+  --blue:#8fafca;
+  --blue1:#55cbcd;
+  --dark:#00000094;
+  --tomato: #ff968a;
+  --white:#eceae4;
 }
 .App{
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 100%;
   min-height: 100vh;
-  background: gray;
+  background: var(--blue);
   box-sizing: border-box !important;
+  font-family: 'Raleway', sans-serif;
 }
 .App-header {
-  background-color: var(--green);
+  background-color: var(--dark);
   min-height: 10vh;
   width: 100%;
   margin: 0;
@@ -24,14 +30,24 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: var(--dark);
+  color: var(--white);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .App-header .title {margin: 0;}
-
+.link{text-decoration: none; color: inherit;}
+#game-score{
+  margin: 0; display: flex;
+  height: 4rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
 .cards-div{
   display: flex;
   flex-wrap: wrap;
-  width: 20rem; margin: 0;
+  width: 30rem; margin: 0;
   align-items: center;
   justify-content: space-between;
   
@@ -40,19 +56,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 6rem; height: 6rem;
+  justify-content: space-evenly;
+  width: 8rem; height: 9rem;
   cursor: pointer;
-  background: #00000073;
+  background: var(--tomato);
   border-radius: 10px;
-  margin: 1rem 0;
+  margin: 1rem 0.8rem;
+  box-shadow: 0  0 10px black;
+  transition: transform .3s ease-out;
+}
+.card-container:hover{
+  transform: scale(1.09, 1.09);
 }
 .card-img{
   display: flex;
   padding: 0rem;
-  width: 3rem; height: 3rem;
+  width: 6rem; height: 6rem;
 }
 .img-title{
   margin: 0;
   display: flex;
+
+  color: var(--dark);
 }
