@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.92b2b2c7.chunk.css",
+    "main.js": "/memory-card/static/js/main.9e71faac.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.9e71faac.chunk.js.map",
+    "runtime-main.js": "/memory-card/static/js/runtime-main.b02970b1.js",
+    "runtime-main.js.map": "/memory-card/static/js/runtime-main.b02970b1.js.map",
+    "static/js/2.b62e877b.chunk.js": "/memory-card/static/js/2.b62e877b.chunk.js",
+    "static/js/2.b62e877b.chunk.js.map": "/memory-card/static/js/2.b62e877b.chunk.js.map",
+    "static/js/3.69bf7f2f.chunk.js": "/memory-card/static/js/3.69bf7f2f.chunk.js",
+    "static/js/3.69bf7f2f.chunk.js.map": "/memory-card/static/js/3.69bf7f2f.chunk.js.map",
+    "index.html": "/memory-card/index.html",
+    "static/css/main.92b2b2c7.chunk.css.map": "/memory-card/static/css/main.92b2b2c7.chunk.css.map",
+    "static/js/2.b62e877b.chunk.js.LICENSE.txt": "/memory-card/static/js/2.b62e877b.chunk.js.LICENSE.txt",
+    "static/media/avocado.83de414e.png": "/memory-card/static/media/avocado.83de414e.png",
+    "static/media/banana-split.63715914.png": "/memory-card/static/media/banana-split.63715914.png",
+    "static/media/banana.5c6852b2.png": "/memory-card/static/media/banana.5c6852b2.png",
+    "static/media/barra-de-chocolate.db1cadcc.png": "/memory-card/static/media/barra-de-chocolate.db1cadcc.png",
+    "static/media/bubble-tea.3845996a.png": "/memory-card/static/media/bubble-tea.3845996a.png",
+    "static/media/cheesecake.41817b85.png": "/memory-card/static/media/cheesecake.41817b85.png",
+    "static/media/hamburguer.f83971a0.png": "/memory-card/static/media/hamburguer.f83971a0.png",
+    "static/media/pizza.cf0b8943.png": "/memory-card/static/media/pizza.cf0b8943.png",
+    "static/media/spaghetti.efc28d33.png": "/memory-card/static/media/spaghetti.efc28d33.png",
+    "static/media/tomate.5921bf63.png": "/memory-card/static/media/tomate.5921bf63.png",
+    "static/media/uvas.dad27805.png": "/memory-card/static/media/uvas.dad27805.png",
+    "static/media/walnut.376abf28.png": "/memory-card/static/media/walnut.376abf28.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b02970b1.js",
+    "static/js/2.b62e877b.chunk.js",
+    "static/css/main.92b2b2c7.chunk.css",
+    "static/js/main.9e71faac.chunk.js"
+  ]
+}
